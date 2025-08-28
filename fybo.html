@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FYBO TECH | Fibre Door Manufacturers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-600">FYBO TECH</h1>
+      <nav class="space-x-6 hidden md:flex font-medium">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#products" class="hover:text-blue-600">Products</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+      <a href="#contact" class="hidden md:block px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">Get Quote</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-r from-blue-700 to-blue-500 text-white">
+    <h2 class="text-4xl md:text-6xl font-extrabold leading-tight" data-aos="zoom-in">
+      Premium Fibre Doors for<br>Modern Homes & Businesses
+    </h2>
+    <p class="mt-6 text-lg max-w-2xl" data-aos="fade-up" data-aos-delay="200">
+      FYBO TECH manufactures high-quality, durable, and stylish fibre doors trusted by homeowners and contractors alike.
+    </p>
+    <div class="mt-8 flex flex-col sm:flex-row gap-4" data-aos="fade-up" data-aos-delay="400">
+      <a href="#products" class="px-6 py-3 bg-white text-blue-700 font-semibold rounded-xl shadow-lg hover:bg-gray-100">View Products</a>
+      <a href="#contact" class="px-6 py-3 border border-white rounded-xl hover:bg-blue-800">Contact Us</a>
+      <!-- PDF Brochure Button -->
+      <a href="fybo-brochure.pdf" download class="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-xl shadow-lg hover:bg-yellow-500">
+        📄 Download Brochure
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 max-w-7xl mx-auto px-6">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <img src="https://source.unsplash.com/600x400/?factory,door" alt="About FYBO TECH" class="rounded-xl shadow-lg" data-aos="fade-right">
+      <div data-aos="fade-left">
+        <h3 class="text-3xl font-bold text-blue-600 mb-6">About Us</h3>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          FYBO TECH is a trusted manufacturer of premium fibre doors with years of experience in delivering durability, design, and strength.  
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          We serve residential, commercial, and industrial projects with custom door solutions. Our mission is to blend <span class="font-semibold text-blue-600">quality craftsmanship</span> with <span class="font-semibold text-blue-600">modern technology</span> to create doors that last a lifetime.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-20 bg-gray-100">
+    <h3 class="text-3xl font-bold text-center mb-12 text-blue-600" data-aos="fade-up">Our Products</h3>
+    <div class="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto px-6">
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDNbV_MGo1J9lsm8wuRcum2YAVuKUJNxvx2A&s" alt="Classic Fibre Door">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">Classic Fibre Door</h4>
+          <p class="text-gray-600">Elegant design, sturdy build, ideal for homes & offices.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDNbV_MGo1J9lsm8wuRcum2YAVuKUJNxvx2A&s" alt="Modern Fibre Door">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">Modern Fibre Door</h4>
+          <p class="text-gray-600">Stylish & durable with smooth finish for modern interiors.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDNbV_MGo1J9lsm8wuRcum2YAVuKUJNxvx2A&s" alt="Custom Fibre Door">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">Custom Fibre Door</h4>
+          <p class="text-gray-600">Tailored designs & sizes to match your unique needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10 text-blue-600" data-aos="fade-up">Get in Touch</h3>
+    <div class="grid md:grid-cols-2 gap-10">
+      <!-- Contact Form -->
+      <form class="space-y-6 bg-white shadow-lg p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
+        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-600 outline-none">
+        <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-600 outline-none">
+        <input type="text" placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-600 outline-none">
+        <textarea placeholder="Your Message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-600 outline-none"></textarea>
+        <button class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold shadow-md">Send Message</button>
+      </form>
+
+      <!-- Google Map -->
+      <div class="rounded-xl overflow-hidden shadow-lg" data-aos="fade-left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." 
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 py-6 text-center text-white">
+    <p>&copy; 2025 FYBO TECH. All Rights Reserved.</p>
+    <p class="text-sm mt-2">Manufacturers of Premium Fibre Doors</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919061571500" target="_blank" 
+     class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg text-2xl">
+    💬
+  </a>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+</body>
+</html>
